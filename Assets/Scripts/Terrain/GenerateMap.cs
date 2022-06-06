@@ -10,12 +10,22 @@ public class GenerateMap : MonoBehaviour
 	public DrawMode drawMode;
 	public TerrainType[] regions;
 	private Color[] colorMap;
+	private float[,] noiseMap;
 	public Vector2 offset;
 
 	public Color grassGreen = new Color(0.5320f, 1f, 0.4575f, 0f);
+	public Color higherGrassGreen = new Color(0.3242112f, 0.8773585f, 0.2358935f, 0f);
 
 	public Tilemap mainTileMap;
+	public Tilemap waterTerrain;
+	public Tilemap higherTerrain;
+	public Tilemap higherBottomTerrain;
 	public TileBase grassTile;
+	public TileBase[] waterTiles;
+	public TileBase cliffBottomTile;
+
+	public Sprite[] waterTargetSprites;
+	public Sprite[] cliffTargetSprites;
 
 
 	public float currentSeed;
@@ -34,7 +44,7 @@ public class GenerateMap : MonoBehaviour
 
 	public void MapGenerator() 
 	{
-		float[,] noiseMap = PerlinNoise.GenerateNoiseMap(mapWidth, mapHeight, seed, noiseScale, octaves, persistance, perplexity, offset);
+		noiseMap = PerlinNoise.GenerateNoiseMap(mapWidth, mapHeight, seed, noiseScale, octaves, persistance, perplexity, offset);
 		//stores float values for each pixel created by the PerlinNoise class's GenerateNoiseMap method
 		colorMap = new Color[mapWidth * mapHeight];
 		//for loop for traversing 2-Dimensional Array of the noisemap and assigning height values
@@ -69,26 +79,16 @@ public class GenerateMap : MonoBehaviour
 	public void TileGenerate()
 	{
 
-		mainTileMap.ClearAllTiles();
+		TileMapGenerator.TileGenerator(noiseMap, mapWidth, mapHeight, mainTileMap, grassTile, grassGreen, 0.7f);
+		TileMapGenerator.AssignWaterTileSides(mapWidth, mapHeight, mainTileMap, waterTerrain,
+												waterTargetSprites[0], waterTargetSprites[1], waterTargetSprites[2], waterTargetSprites[3], waterTargetSprites[4],
+												waterTiles[0], waterTiles[1], waterTiles[2], waterTiles[3]);
 
-		for(int i = 0; i < mapHeight; i++)
-        {
+		TileMapGenerator.TileGenerator(noiseMap, mapWidth, mapHeight, higherTerrain, grassTile, higherGrassGreen, 0.25f);
 
-            for(int j = 0; j < mapWidth; j++)
-            {
-
-                if(colorMap[i * mapWidth + j].g == grassGreen.g)
-				// if(ColorChecker.IsEqual(colorMap[i * mapWidth + j], grassGreen))
-                {
-					Debug.Log("hey");
-                    Vector3Int pos = new Vector3Int(i, j, 0);
-                    mainTileMap.SetTile(pos, grassTile);
-
-                }
-
-            }
-
-        }
+		TileMapGenerator.AssignBottomCliffTileSides(mapWidth, mapHeight, higherTerrain, higherBottomTerrain, mainTileMap,
+													cliffTargetSprites[0], cliffTargetSprites[1], cliffTargetSprites[2], cliffTargetSprites[3], cliffTargetSprites[4],
+													cliffBottomTile);
 	}
 
 	
