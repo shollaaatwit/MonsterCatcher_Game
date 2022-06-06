@@ -15,11 +15,11 @@ C:/Users/alexs/Documents/UnityProjects/MonsterCatcher/MonsterCatcher_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59886
+64814
 Successfully changed project path to: C:/Users/alexs/Documents/UnityProjects/MonsterCatcher/MonsterCatcher_Game
 C:/Users/alexs/Documents/UnityProjects/MonsterCatcher/MonsterCatcher_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,373 +35,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002062 seconds.
+Registered in 0.001997 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.552 seconds
+- Completed reload, in  1.422 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003539 seconds.
+Registered in 0.003418 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  0.881 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2116 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.1 MB.
 System memory in use after: 94.1 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2558.
-Total: 1.773400 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.486500 ms  DeleteObjects: 0.049200 ms)
+Total: 1.796800 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.056800 ms MarkObjects: 1.548100 ms  DeleteObjects: 0.045700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Tiles/Ground Tiles/Grass Rule Tile.asset
-  artifactKey: Guid(15dbff07c5941434a9209baef24c929b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/Grass Rule Tile.asset using Guid(15dbff07c5941434a9209baef24c929b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbf0a77b9f83f8dd0c389115fc5f749') in 0.083698 seconds
-  Import took 0.086856 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004062 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.6 MB.
-System memory in use after: 96.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2565.
-Total: 1.648600 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.425100 ms  DeleteObjects: 0.011800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003514 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.6 MB.
-System memory in use after: 96.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2568.
-Total: 1.752800 ms (FindLiveObjects: 0.145800 ms CreateObjectMapping: 0.065900 ms MarkObjects: 1.528100 ms  DeleteObjects: 0.012400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003303 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.813 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2107 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.6 MB.
-System memory in use after: 96.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2571.
-Total: 1.701500 ms (FindLiveObjects: 0.149400 ms CreateObjectMapping: 0.062300 ms MarkObjects: 1.476200 ms  DeleteObjects: 0.013000 ms)
+  path: Assets/Sprites/Entities/Dog-Idle-Side-Sprite.png
+  artifactKey: Guid(e09867e8a5a973d41a52c138661df018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Entities/Dog-Idle-Side-Sprite.png using Guid(e09867e8a5a973d41a52c138661df018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c8d0ca5cca0a2b00826aa5bea563fd') in 0.096484 seconds
+  Import took 0.100067 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 814.531953 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/New Advanced Rule Override Tile.asset
-  artifactKey: Guid(06bd6a4140995e14284daf58f3f92a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/New Advanced Rule Override Tile.asset using Guid(06bd6a4140995e14284daf58f3f92a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea4697c15d0d50ee5c4d7a977c272b4') in 0.032618 seconds
-  Import took 0.036221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/Water Tile.asset
-  artifactKey: Guid(1133d1aa736b8934d954f2b60d14b56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/Water Tile.asset using Guid(1133d1aa736b8934d954f2b60d14b56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaac4344aaba66e4b8a2808ccda2f8c') in 0.033102 seconds
-  Import took 0.035600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.091573 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png
-  artifactKey: Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png using Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a90488eacc3d3c0f2955e6bb3c38be4') in 0.051675 seconds
-  Import took 0.054469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.376922 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png
-  artifactKey: Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png using Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e44a71f918fbf3708b985c365e0f7ac') in 0.018738 seconds
-  Import took 0.021581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.939185 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/treeV2.png
-  artifactKey: Guid(ea203d758ff663040bd52a3344d1d12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/treeV2.png using Guid(ea203d758ff663040bd52a3344d1d12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e369186be4baf3a2f4a11787961ce12c') in 0.011592 seconds
-  Import took 0.014550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.115421 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png
-  artifactKey: Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png using Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90953de0093996ffb2210035f7d9298') in 0.008863 seconds
-  Import took 0.011907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.563734 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png
-  artifactKey: Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png using Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9f97593f18f501dc50827eabbbf3ea') in 0.007878 seconds
-  Import took 0.010663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.477568 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png
-  artifactKey: Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png using Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b77790cb3a32e21a40a943efa0f5938') in 0.011022 seconds
-  Import took 0.013860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.073678 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png
-  artifactKey: Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png using Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0df86d2414bee66c2e4b430e3b1f52a') in 0.012353 seconds
-  Import took 0.015744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.048362 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png
-  artifactKey: Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png using Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28aec74be309e53b6993443e49e39132') in 0.009165 seconds
-  Import took 0.012198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.383151 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png
-  artifactKey: Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png using Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bd4f5231002db201080ec06546c2fd') in 0.007031 seconds
-  Import took 0.009934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.742924 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png
-  artifactKey: Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png using Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00d165663a57f088cf6bc5d6946059b') in 0.006018 seconds
-  Import took 0.008879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.045150 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png
-  artifactKey: Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowcliff tiles.png using Guid(f4240601ceb935b41b1aeee756e15a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af1427ccff3e2ee234904ac84f6da0f') in 0.015811 seconds
-  Import took 0.018542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.818287 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png
-  artifactKey: Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png using Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe147fdb86622d281e269eba93b004c') in 0.013595 seconds
-  Import took 0.016548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.158851 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png
-  artifactKey: Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png using Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbdc2af332712831931ae5fcbd3e0eb') in 0.009585 seconds
-  Import took 0.012652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.769608 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png
-  artifactKey: Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png using Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3ea8b19aa27cdfc7e8efaa4ecfb863') in 0.010786 seconds
-  Import took 0.013758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.901985 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png
-  artifactKey: Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png using Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c71fca30e5e703865de2b89342ed8a') in 0.021518 seconds
-  Import took 0.024413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 164.484336 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png
-  artifactKey: Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png using Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86216c355de6a1247eae6ab1f05fb5d3') in 0.011141 seconds
-  Import took 0.014348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.585213 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png
-  artifactKey: Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png using Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7555d08745a36f810d71cb9bc7b2c252') in 0.007365 seconds
-  Import took 0.010377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.376742 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png
-  artifactKey: Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles.png using Guid(a34e2d6f1f3dac241a1b98117b44259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ff67b9999349a9373152843f5b5552') in 0.018097 seconds
-  Import took 0.020954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 154.216337 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2.png
-  artifactKey: Guid(38274992b354cd445b9dbc88915d40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2.png using Guid(38274992b354cd445b9dbc88915d40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a527a842f0eea52d7abaa326510de4') in 0.012244 seconds
-  Import took 0.015076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.001515 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2.png
-  artifactKey: Guid(38274992b354cd445b9dbc88915d40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2.png using Guid(38274992b354cd445b9dbc88915d40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31feaa6aa5cba15b85ef8da226c23e9a') in 0.007763 seconds
-  Import took 0.010581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.985168 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2.png
-  artifactKey: Guid(38274992b354cd445b9dbc88915d40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2.png using Guid(38274992b354cd445b9dbc88915d40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e5ca852ad74681298a976cca2a6a6') in 0.019740 seconds
-  Import took 0.022606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.509757 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2 1.png
-  artifactKey: Guid(39674342e5dc1614c96c460dff4bf7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2 1.png using Guid(39674342e5dc1614c96c460dff4bf7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ab258eeaaf9e7b4caf5fa4e184416e') in 0.010631 seconds
-  Import took 0.013781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.449196 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2 1.png
-  artifactKey: Guid(39674342e5dc1614c96c460dff4bf7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2 1.png using Guid(39674342e5dc1614c96c460dff4bf7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3437b2743165079073275041f6bbd418') in 0.007439 seconds
-  Import took 0.010565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.845893 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2 1.png
-  artifactKey: Guid(39674342e5dc1614c96c460dff4bf7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles2 1.png using Guid(39674342e5dc1614c96c460dff4bf7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b753686fcfccd27427c2edb9c82a45ea') in 0.021300 seconds
-  Import took 0.024225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 109.677778 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles3.png
-  artifactKey: Guid(44ba1bb931ab6fa4c99fdbc2a64e9425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles3.png using Guid(44ba1bb931ab6fa4c99fdbc2a64e9425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1083565ce6c909565fe72ceed32166') in 0.013845 seconds
-  Import took 0.017786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.489875 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles3.png
-  artifactKey: Guid(44ba1bb931ab6fa4c99fdbc2a64e9425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles3.png using Guid(44ba1bb931ab6fa4c99fdbc2a64e9425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcb0798e7d06b3b9f42e4c45ee7043c') in 0.007443 seconds
-  Import took 0.010464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.307235 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/belowclif tiles3.png
-  artifactKey: Guid(44ba1bb931ab6fa4c99fdbc2a64e9425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/belowclif tiles3.png using Guid(44ba1bb931ab6fa4c99fdbc2a64e9425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d20e4ad742122ed2b45c7be418e409') in 0.019143 seconds
-  Import took 0.022226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 231.963793 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png
-  artifactKey: Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png using Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445b9589e177e9c681e9b809aa479430') in 0.008808 seconds
-  Import took 0.012054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.011745 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png
-  artifactKey: Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png using Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205fce995d4e45e736f7c066a1d1a912') in 0.007302 seconds
-  Import took 0.010171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.780396 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png
-  artifactKey: Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png using Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f00a3444bec50e213b7be78aa87f7e') in 0.013731 seconds
-  Import took 0.017053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.944107 seconds.
-  path: Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png
-  artifactKey: Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tiles/Ground Tiles/anotherfkintree.png using Guid(20b49d55534eef046ba221948f3516b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c60abedbe0ec3789bbaa7465bdd9cc3') in 0.009890 seconds
-  Import took 0.013017 seconds .
+  Time since last request: 24.024106 seconds.
+  path: Assets/Sprites/Entities/Dog-Idle-Side-Sprite.png
+  artifactKey: Guid(e09867e8a5a973d41a52c138661df018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Entities/Dog-Idle-Side-Sprite.png using Guid(e09867e8a5a973d41a52c138661df018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3a18356df16cd901afc75bb3f45113') in 0.008761 seconds
+  Import took 0.012092 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
