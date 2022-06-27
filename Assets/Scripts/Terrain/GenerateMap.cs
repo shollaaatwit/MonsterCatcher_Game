@@ -42,6 +42,12 @@ public class GenerateMap : MonoBehaviour
 	public float seed;
 	public float noiseScale;
 
+	void Start()
+	{
+		MapGenerator();
+		TileGenerate();
+	}
+
 	public void MapGenerator() 
 	{
 		noiseMap = PerlinNoise.GenerateNoiseMap(mapWidth, mapHeight, seed, noiseScale, octaves, persistance, perplexity, offset);
