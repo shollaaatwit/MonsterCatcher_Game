@@ -18,9 +18,22 @@ public class PathFinding_1 : MonoBehaviour
     void FixedUpdate()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        movement.x = player.transform.position.x - transform.position.x;
-        movement.y = player.transform.position.y - transform.position.y;
-        // rb.MovePosition(this.transform.position);
-        rb.MovePosition(new Vector2((transform.position.x + speed * movement.x * Time.deltaTime), (transform.position.y + speed * movement.y * Time.deltaTime)));
+        rb.MovePosition(moveTo(player));
     }
+    private Vector2 moveTo(GameObject player)
+    {
+        movement.x = getX(player);
+        movement.y = getY(player);
+
+        return new Vector2((transform.position.x + speed * movement.x * Time.deltaTime), (transform.position.y + speed * movement.y * Time.deltaTime));
+    }
+    private float getX(GameObject player)
+    {
+        return player.transform.position.x - transform.position.x;
+    }
+    private float getY(GameObject player)
+    {
+        return player.transform.position.y - transform.position.y;
+    }
+
 }
