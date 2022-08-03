@@ -103,7 +103,7 @@ public class InventoryUI : MonoBehaviour
         }
         int x = 0; // holds index of item list
         int y = 0;
-        float itemSlotCellSize = 227f;
+        float itemSlotCellSize = 113f;
 
 
         //add system to match transform potion of inventory hotbars

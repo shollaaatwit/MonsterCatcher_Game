@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6253919201439170979}
   - component: {fileID: 6253919201439170991}
   - component: {fileID: 363980041490295229}
+  - component: {fileID: 1201895950632991233}
   m_Layer: 3
   m_Name: Dog
   m_TagString: Untagged
@@ -135,8 +136,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdbb10f069a25e418f9a4751a3a7ba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkAnimator: {fileID: 1201895950632991233}
   moveSpeed: 0
   speed: 0
+  player: {fileID: 6956017285704872082, guid: ad79314fb566c2b4a924a6b688eb53fe, type: 3}
+  canChase: 0
+  test: 0
 --- !u!114 &363980041490295229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,3 +156,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   creatureType: Dog
   id: 1
+--- !u!95 &1201895950632991233
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253919201439170983}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 457f152182c97624ba27ad45e0eb255e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

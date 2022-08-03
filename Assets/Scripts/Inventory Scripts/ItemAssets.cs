@@ -28,4 +28,6 @@ public class ItemAssets : Singleton<ItemAssets>
     // public Sprite tomatoSeedSprite;
     public Sprite pumpkinSeedSprite;
 
+    public Sprite fireflyJar;
+
 } 

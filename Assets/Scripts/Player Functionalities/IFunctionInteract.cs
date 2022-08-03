@@ -4,9 +4,12 @@ using UnityEngine;
 
 public interface IFunctionInteract
 {
+
     void UseTool();
 
-    int[] GetIDs();
+    int GetIDs();
 
     bool IsCaught();
+
+    string Destination();
 }

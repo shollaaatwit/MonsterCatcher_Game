@@ -7,6 +7,15 @@ public class CreatureInfo
     public Sprite creatureSprite;
     public GameObject creaturePrefab;
 
+
+    public enum CreatureDestination
+    {
+        Party,
+        Inventory,
+    }
+
+    public CreatureDestination creatureDest;
+    
     public CreatureInfo(Sprite creatureSprite, GameObject creaturePrefab)
     {
         this.creatureSprite = creatureSprite;

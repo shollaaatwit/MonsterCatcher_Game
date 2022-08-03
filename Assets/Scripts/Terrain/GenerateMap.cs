@@ -16,6 +16,7 @@ public class GenerateMap : MonoBehaviour
 	public Color grassGreen = new Color(0.5320f, 1f, 0.4575f, 0f);
 	public Color higherGrassGreen = new Color(0.3242112f, 0.8773585f, 0.2358935f, 0f);
 
+	public Transform player;
 	public Tilemap mainTileMap;
 	public Tilemap waterTerrain;
 	public Tilemap higherTerrain;
@@ -46,6 +47,7 @@ public class GenerateMap : MonoBehaviour
 	{
 		MapGenerator();
 		TileGenerate();
+		CheckPlayerSpawn();
 	}
 
 	public void MapGenerator() 
@@ -116,7 +118,35 @@ public class GenerateMap : MonoBehaviour
 
 	}
 
+	public void CheckPlayerSpawn()
+	{
+		// for(int i = 0; i < mapHeight/2; i++)
+		// {
+		// 	for(int j = 0; j < mapWidth/2; j++)
+		// 	{
+		// 		if(mainTileMap.GetTile(i,j,0) == grassTile)
+		// 		{
+		// 			Debug.Log(j);
+		// 			return mainTileMap.GetCellCenterWorld(new Vector3Int(i, j, 0));
+		// 			break;
+		// 		}
+		// 	}
+
+		// }
+
+		Vector3Int tilePos = mainTileMap.WorldToCell(player.position);
+		while(mainTileMap.GetTile(tilePos) != grassTile)
+		{
+			tilePos = new Vector3Int((int)player.position.x,(int) player.position.y, 0);
+		}
+
+		player.position = mainTileMap.GetCellCenterWorld(new Vector3Int(tilePos.x+1, tilePos.y+1, 0));
+
+	}
+
 }
+
+
 
 
 //custom class that can be edited from inspector for creating regions easily

@@ -9,13 +9,11 @@ public class Item
     public int amount;
     public string title;
     public int id;
-
     //constructor for item, returns found item's id
     public Item(int id)
     {
         this.id = id;
     }
-
 
     // Organized Dictionary of items by ID
     public Dictionary<int, ItemInfo> itemTypes = new Dictionary<int, ItemInfo>()
@@ -26,6 +24,8 @@ public class Item
 
         {2, new ItemInfo(ItemAssets.Instance.stickSprite){itemType = ItemInfo.ItemType.Tool,
                                                             toolPrefab = ItemAssets.Instance.stickTool}},
+        {3, new ItemInfo(ItemAssets.Instance.fireflyJar)},
+
     };
 
 

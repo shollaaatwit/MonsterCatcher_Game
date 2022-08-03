@@ -7,7 +7,7 @@ public class TestControllerScript : Singleton<TestControllerScript>
     public static TestControllerScript Instance;
 
     private SpriteRenderer spriteRenderer;
-    private Inventory inventory;
+    public Inventory inventory;
 
 
     private int i = 0;
