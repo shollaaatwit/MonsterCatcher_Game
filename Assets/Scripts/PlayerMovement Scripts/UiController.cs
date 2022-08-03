@@ -8,6 +8,7 @@ public class UiController : MonoBehaviour
     public GameObject inventory;
     public GameObject items;
     public GameObject pause;
+    public GameObject controls;
     public float inventoryCooldown;
 
     private float nextInventoryUse;
@@ -28,11 +29,11 @@ public class UiController : MonoBehaviour
 
             nextInventoryUse = Time.time + inventoryCooldown;
         }
-        if(Input.GetKeyDown(KeyCode.Escape) && pause.activeInHierarchy)
+        if(Input.GetKeyDown(KeyCode.Escape) && pause.activeInHierarchy && !controls.activeInHierarchy)
         {
             PauseGame(false);
         }
-        else if(Input.GetKeyDown(KeyCode.Escape) && !pause.activeInHierarchy)
+        else if(Input.GetKeyDown(KeyCode.Escape) && !pause.activeInHierarchy && !controls.activeInHierarchy)
         {
             PauseGame(true);
         }
@@ -58,6 +59,11 @@ public class UiController : MonoBehaviour
     {
         pause.SetActive(check);  
         Time.timeScale = (check) ? 0 : 1f;
+    }
+    public void ControlsGame(bool check)
+    {
+        controls.SetActive(check);
+        pause.SetActive(!check);
     }
 
     IEnumerator DelayItemVisibility(bool check)
