@@ -38,7 +38,7 @@ public class CreatureSpawner : Singleton<CreatureSpawner>
         posX = Random.Range(1, spawnPoints.Length);
         spawnChance = (double)Random.Range(1, 100);
         int index = Random.Range(0,2);
-        if(grassTerrain.GetTile(grassTerrain.WorldToCell(spawnPoints[posX].position)) == grassBlock && spawnChance > 60.99999f && creatureList.Count < 7)
+        if(grassTerrain.GetTile(grassTerrain.WorldToCell(spawnPoints[posX].position)) == grassBlock && spawnChance > 30.99999f && creatureList.Count < 7)
         {
 
             creatureList.Add(Instantiate(creature[index], spawnPoints[posX].position, Quaternion.identity, transform));
@@ -55,7 +55,7 @@ public class CreatureSpawner : Singleton<CreatureSpawner>
     {
         foreach(GameObject gObjects in creatureList)
         {
-            if(Vector2.Distance(gObjects.transform.position, player.transform.position) > 13)
+            if(Vector2.Distance(gObjects.transform.position, player.transform.position) > 16)
             {
                 Destroy(gObjects);
                 creatureList.Remove(gObjects);

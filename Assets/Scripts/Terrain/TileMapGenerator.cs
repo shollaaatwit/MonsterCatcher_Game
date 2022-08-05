@@ -7,7 +7,7 @@ public class TileMapGenerator : MonoBehaviour
 {
 
 
-    public static void TileGenerator(float[,] noiseMap, int width, int height, Tilemap terrain, TileBase grassTile, Color targetColor, float targetHeight)
+    public static void TileGenerator(float[,] noiseMap, int width, int height, Tilemap terrain, TileBase grassTile, float targetHeight)
     {
 
 		terrain.ClearAllTiles();

@@ -575,7 +575,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: eb2b6ac2bf2f0cea1407893e69063a4d
+      Hash: 6459730339aff756dd91b7362b20b5c4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GenerateMap
@@ -917,12 +917,6 @@ ScriptsOnlyBuild:
     className: SwingArmModel
   - hash:
       serializedVersion: 2
-      Hash: 45ff57e0bbe5f0d96d7e09cd5d668efe
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ColorMap
-  - hash:
-      serializedVersion: 2
       Hash: dd4d6dff8173046098dafe295e5ce022
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -983,12 +977,6 @@ ScriptsOnlyBuild:
     className: AnimatedTile
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ColorChecker
-  - hash:
-      serializedVersion: 2
       Hash: 69415240821be7986b27e72bf9609a30
     assemblyName: Unity.Analytics.DataPrivacy.dll
     namespaceName: UnityEngine.Analytics
@@ -1039,4 +1027,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/Main Game.unity
-  playerPath: C:/Users/alexs/Desktop/CreatureCatcher.exe
+  playerPath: C:/Users/alexs/Desktop/CreatureCatcher/CreatureCatcher.exe
